@@ -41,10 +41,7 @@ Structured notes on:
 - Testing (unit, integration, TDD)
 - CI/CD, Docker, and deployment
 
----
-
 ## 🛠️ Tech Stack 
-
 - Node.js / TypeScript
 - PostgreSQL / Redis
 - Express / Fastify

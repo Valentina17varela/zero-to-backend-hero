@@ -9,6 +9,10 @@ This repository is a living archive of everything I'm learning and practicing to
 - 🧪 Testing, code quality and backend patterns in action
 - 🛠️ Mini backend projects to apply key concepts
 
+<p align="center">
+  <img src="multimedia/coolStuff.png" alt="Mi cat Timón" width="200"/>
+</p>
+
 ---
 
 ## 📘 Contents

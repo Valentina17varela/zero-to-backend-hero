@@ -1,4 +1,3 @@
-// BACKEND NODEJS - ALEGRA
 /*
 Instructions:
 

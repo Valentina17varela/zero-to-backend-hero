@@ -1,0 +1,80 @@
+<html>
+	<head>
+        <meta name="theme-color" content="#19D3F0">
+        <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+		<title>Formulario</title>
+	</head>
+	<body>
+        <div class="contenedor">
+        <h1 id="title">FORMULARIO</h1> 
+        <p id="description">Tendencias Videojuegos</p>
+        </div> 
+        
+        <br>
+        <form id="survey-form">
+            <label id="name-label" for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Nombre Apellidos" required>
+            <br>
+            <label id="email-label" for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Direccion@dominio" required>
+            <br>
+            <label id="number-label" for="number">Numero (10-100)</label>
+            <input type="number" id="number" name="number" min="10" max="100" placeholder="Escoja un valor dentro del rango">
+          <br>
+          <label for="genero">Genero favorito:</label>
+          <select name="genero" id="dropdown">
+            <option value="aventura">Aventura</option>
+            <option value="fantasia">Fantasia</option>
+            <option value="terror">Terror</option>
+            <option value="deportes">Deportes</option>
+          </select>
+          
+          <br>
+          <div id="empresa">
+          Empresa favorita:
+          <br>
+          <label for="activision">
+          <input id="activision" type="radio" name="empresa" value="activision">Activision
+          </label>
+          
+          <label for="ubisoft">
+          <input id="ubisoft" type="radio" name="empresa" value="ubisoft">Ubisoft
+          </label>
+          
+          <label for="square enix">
+          <input id="square enix" type="radio" name="empresa" value="square enix">Square enix
+          </label>
+          
+          </div>
+          
+          <br>
+          <div id="check">
+            Consola de videojuegos preferida:<br>
+           
+            <label for="playstation">Playstation</label>
+            <input type="checkbox" id="playstation" value="playstation" name="check">
+            
+            <label for="xbox">Xbox</label>
+            <input type="checkbox" id="xbox" value="xbox" name="check">
+            
+            <label for="switch">Switch</label>
+            <input type="checkbox" id="switch" value="switch" name="check">
+            
+            <br>
+            <br>
+            Videojuego favorito y reseña:
+            <br>
+            <textarea></textarea>
+          </div>
+
+          <br><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+	</body>
+
+    <br>
+    <footer class="contenedor" id="pie">
+        Valentina Varela Alzate
+        <address>valentina.varela17@outlook.com</address>
+    </footer>
+</html>

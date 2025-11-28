@@ -12,35 +12,3 @@ This repository is a living archive of everything I'm learning and practicing to
 <p align="center">
   <img src="multimedia/coolStuff.png" alt="Mi cat Timón" width="200"/>
 </p>
-
----
-
-## 📘 Contents
-
-### 📂 `algorithms/`
-Problems categorized by topic with clean and well-commented solutions.
-
-### 📂 `backend-projects/`
-Small projects using differents backend stacks, focused on:
-
-- API design
-- Auth & security
-- Queues and background jobs
-- Database integration
-
-### 📂 `system-design/`
-High-level notes and diagrams on:
-
-- REST vs GraphQL
-- Microservices
-- Load balancing, caching, and databases
-- Scalability & distributed systems
-
-### 📂 `notes/`
-Structured notes on:
-
-- Clean Architecture
-- SOLID Principles
-- Design Patterns
-- Testing (unit, integration, TDD)
-- CI/CD, Docker, and deployment

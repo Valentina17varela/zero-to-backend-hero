@@ -1,0 +1,135 @@
+<html>
+	<head>
+		<title>Python</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+	</head>
+	<body>
+
+        <nav id="navbar">
+            <header id="nav"">Python</header>
+            
+            <a class="nav-link" href="#Introduccion">Introduccion</a>
+            <a class="nav-link" href="#Uso">Uso</a>
+            <a class="nav-link" href="#Sintaxis">Sintaxis</a>
+            <a class="nav-link" href="#Ejemplos">Ejemplos</a>
+            <a class="nav-link" href="#Recursos">Recursos</a>
+
+        </nav>
+
+        <main id="main-doc">
+
+            <section class="main-section" id="Introduccion">
+                <header>
+                    Introduccion
+                </header>
+
+                <p>Python es un lenguaje de programación de alto nivel, orientado a objetos, con una semántica dinámica integrada, principalmente para el desarrollo web y de aplicaciones informáticas.</p>
+                <p>Es un lenguaje interpretado, no es necesario compilarlo para ejecutarlo, se hace directamente por el ordenador utilizando un programa denominado interprete, por lo que no es necesario pasarlo a lenguaje máquina. </p>
+            </section>
+
+            <section class="main-section" id="Uso">
+                <header>
+                    Uso
+                </header>
+
+                <p>Phyton se convirtió en uno de los lenguajes de programación más utilizados en la actualidad, aunque tiene una presencia en el mercado de más de 30 años. </p>
+                <p>La tendencia del mercado laboral muestra que la demanda de profesionales de Python crece exponencialmente cada año. Uno de sus principales aliados es la Inteligencia Artificial (AI). Se destaca tambien en aplicaciones web y big data.</p>
+                
+                <p>Sus usos mas comunes son:</p>
+                <ul>
+                    <li>Data analytics y big data.</li>
+                    <li>Data science.</li>
+                    <li>Inteligencia artificial. </li>
+                    <li>Machine learning.</li>
+                    <li>Desarrollo Web.</li>
+                </ul>
+            </section>
+
+            <section class="main-section" id="Sintaxis">
+                <header>
+                    Sintaxis
+                </header>
+
+                <p>Python diferencia entre mayúsculas y minúsculas o que no admite caracteres de puntuación como @, $ o %.</p>
+                <p>Los nombres de clase empiezan con una letra mayúscula. Los demás identificadores empiezan con minúscula. Si el identificador empieza un guión bajo, significa que es privado. Si empieza con dos guiones bajos, se trata de un identificador privado. Si el identificador finaliza con dos guiones bajos, el identificador es un nombre especial definido por lenguaje.</p>
+                <p>Hay una serie de palabras que no podemos emplear como constantes o variables o como nombre identificador. Son todas en minúsculas y han sido reservadas por el lenguaje Python.</p>
+                <p>En Python, los comentarios empiezan con el carácter hash (#). Nosotros podemos leernos, es más, deberíamos, ya que nos aportarán información sobre el resto de código, pero el intérprete lo ignorará.</p>
+            </section>
+
+            <section class="main-section" id="Ejemplos">
+                <header>
+                    Ejemplos
+                </header>
+
+                <p>Algunos ejemplos de como se programa en python se muestran a continuacion</p>
+                <p>Tipos de datos: Programa que almacena la cadena ¡Hola Mundo! en una variable y luego muestre por pantalla el contenido de la variable</p>
+                
+                <div class="codigo">
+                    <code>
+                        mensaje = "¡Hola Mundo!"
+                        <br>
+                        print(mensaje)
+                    </code>
+                </div>
+
+                <br>
+                <p>Cadena: Programa que pregunte el nombre del usuario en la consola y un número entero e imprima por pantalla en líneas distintas el nombre del usuario tantas veces como el número introducido.</p>
+                <div class="codigo">
+                    <code>
+                        nombre = input("¿Cómo te llamas? ")
+                        <br>
+                        n = input("Introduce un número entero: ")
+                        <br>
+                        print((nombre + "\n") * int(n))
+                    </code>
+                </div>
+
+                <br>
+                <p>Condicionales: Escribir un programa que pregunte al usuario su edad y muestre por pantalla si es mayor de edad o no.</p>
+                <div class="codigo">
+                    <code>
+                        age = int(input("¿Cuál es tu edad? "))
+                        <br>
+                        if age < 18: <br>
+                        print ("Eres menor de edad.")<br>
+                        else:<br>
+                        print("Eres mayor de edad.")
+                    </code>
+                </div>
+
+                <br>
+                <p>Bucle: Escribir un programa que pida al usuario una palabra y la muestre por pantalla 10 veces.</p>
+                <div class="codigo">
+                    <code>
+                        word = input("Introduce una palabra: ")<br>
+                        for i in range(10):<br>
+                            print(word)
+                    </code>
+                </div>
+
+                <br>
+                <p>Listas y tuplas: Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla.</p>
+                <div class="codigo">
+                    <code>
+                        subjects = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+                        <br>
+                        print(subjects)
+                    </code>
+                </div>
+            </section>
+
+            <section class="main-section" id="Recursos">
+                <header>
+                    Recursos
+                </header>
+
+                <p>Think Python es un libro de base para aprender a programar.</p>
+                <p>Tutorial oficial de Python en español: Es la versión traducida del original de Guido van Rossum http://tutorial.python.org.ar/</p>
+                <br>
+            </section>
+
+        </main>
+
+	</body>
+
+</html>

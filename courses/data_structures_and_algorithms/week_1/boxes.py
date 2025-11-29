@@ -1,4 +1,4 @@
-# BOXES
+# Boxes
 # A given maximum number of products fits in each box. How many boxes is needed at least?
 # Input:
 # product_count: the total number of products

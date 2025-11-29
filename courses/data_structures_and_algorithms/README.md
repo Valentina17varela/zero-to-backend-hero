@@ -12,7 +12,7 @@ The aim of the course Data Structures and Algorithms is to advance your programm
 
 ## 📚  Notes
 
-### <span style="color: red">Introduction</span>
+### Introduction
 
 **What is an algorithm?:** An algorithm is a method for solving some computational problem. An algorithm implemented in some programming language can be executed on a computer.
 

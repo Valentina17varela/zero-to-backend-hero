@@ -4,32 +4,25 @@ Your task is to count how many numbers in the range [a,b] consist of the digits 
 For example, in the range [1,100] the numbers are 2, 5, 22, 25, 52 and 55, and thus the answer is 6.
 
 The function is given the parameters a and b representing the end points of the range.
+Solution: BFS
 """
 
 
 def count_numbers(a, b):
-    if a > b:
-        return 0
+    numbers = [2, 5]
+    count = 0
 
-    total = 0
-    queue = [2, 5]
-    idx = 0  # puntero para usar la lista como cola sin pop(0)
+    for number in numbers:
+        if a <= number <= b:
+            count += 1
 
-    while idx < len(queue):
-        x = queue[idx]
-        idx += 1
-
-        if x > b:
+        if number > b:
             continue
 
-        if x >= a:
-            total += 1
+        numbers.append(number * 10 + 2)
+        numbers.append(number * 10 + 5)
 
-        # genera los siguientes números válidos
-        queue.append(x * 10 + 2)
-        queue.append(x * 10 + 5)
-
-    return total
+    return count
 
 
 if __name__ == "__main__":

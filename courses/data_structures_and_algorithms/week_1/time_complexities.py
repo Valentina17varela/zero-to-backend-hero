@@ -38,9 +38,9 @@ def algo5(n):  # O(n^2)
     return result
 
 
-def algo6(n):  # O(n)
+def algo6(n):  # O(1)
     result = 0
-    for i in range(10):
+    for i in range(10):  # contant loop
         result += n
     return result
 

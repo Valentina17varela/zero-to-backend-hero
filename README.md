@@ -1,4 +1,4 @@
-# 🧟🏻‍♀️☣️ Zero to backend HERO! 🦸🏻‍♀️🚀
+# Zero to backend HERO!
 
 Welcome to my personal journey to mastering backend engineering and algorithms. This helps me track progress, stay accountable, and give back by sharing what I learn along the way.
 

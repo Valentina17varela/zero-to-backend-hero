@@ -150,7 +150,7 @@ print(b) # [1, 2, 3, 4, 5]
 ```
 
 For copying the contents, we can use the method copy:
-```
+```python
 a = [1, 2, 3, 4]
 b = a.copy()
 a.append(5)
